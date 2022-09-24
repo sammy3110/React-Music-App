@@ -5,7 +5,6 @@ import MusicMainWindow from "./components/MusicMainWindow";
 import MusicSidebar from "./components/MusicSidebar";
 
 function App() {
-  // const [recommendedSongs, setRecommendedSongs] = useState(
     const recommendedSongs = [
     {
       id: "1",
@@ -33,9 +32,6 @@ function App() {
     },
     
   ]
-  // );
-
-  // const [songList, setSongList] = useState(
     const songList = [
     {
       id: "1",
@@ -53,7 +49,6 @@ function App() {
       title: "Say You Won't Let Go",
       duration: "3:30",
       added: true,
-      // source: "songs/James Arthur - Say You Won't Let Go.mp3",
     },
     {
       id: "3",
@@ -62,7 +57,6 @@ function App() {
       title: "Night Changes",
       duration: "4:00",
       added: false,
-      // source: "songs/One Direction - Night Changes.mp3",
     },
     {
       id: "4",
@@ -71,29 +65,21 @@ function App() {
       title: "Watermelon Sugar",
       duration: "3:08",
       added: false,
-      // source: "songs/Harry Styles - Watermelon Sugar (Official Video).mp3",
     },
   ]
-  // );
 
-  // const [posters, setPosters] = useState(
     const posters = {
       id: "3",
       url: "images/poster3.jpg",
     };
   // );
 
-  // const [current_song, setCurrent_song] = useState(
     const current_song = songList[0]
-    // );
 
   const playPauseButton = useRef();
   const audioFile = useRef();
   const sourceRef = useRef();
 
-  // function playSong(song) {
-  //   console.log(song);
-  // }
 
 
   return (

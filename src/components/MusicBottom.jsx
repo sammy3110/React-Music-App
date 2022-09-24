@@ -47,14 +47,12 @@ const MusicBottom = ({ current_song, playPauseButton, audioFile, sourceRef }) =>
   }
 
   function skipSong(e) {
-    // playPause();
     const time = parseInt(e.target.value);
     if (audioFile.current) {
       const x = audioFile.current.duration;
       audioFile.current.currentTime = (x * time) / 100;
     }
     setSong_slider_value(time);
-    // playPause();
   }
 
   return (
@@ -96,7 +94,6 @@ const MusicBottom = ({ current_song, playPauseButton, audioFile, sourceRef }) =>
             max="100"
             className="slider"
             id="myRange"
-            // slider-width={song_slider_value}
           ></input>
           <p>{current_song.duration}</p>
         </div>

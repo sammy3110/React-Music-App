@@ -56,7 +56,6 @@ body {
 }
 
 .music_top_container {
-  /* border: 2px solid red; */
 
   width: 100%;
   height: 90%;
@@ -65,7 +64,6 @@ body {
 /* ................ Music Sidebar ................... */
 
 .music_sidebar_container {
-  /* border: red 2px solid; */
 
   background-color: var(--color_secondary);
   height: 100%;
@@ -79,7 +77,6 @@ body {
 }
 
 .music_sidebar_top .circle {
-  /* border: red 1px solid; */
   height: 14px;
   width: 14px;
   border-radius: 50%;
@@ -89,7 +86,6 @@ body {
 }
 
 .music_sidebar_top {
-  /* border: 2px solid green; */
   width: 100%;
   height: 5%;
   padding-left: 2rem;
@@ -98,7 +94,6 @@ body {
 }
 
 .music_sidebar_main {
-  /* border: 2px solid green; */
   width: 100%;
   height: 80%;
   padding: 1rem 0 1rem 2rem;
@@ -138,13 +133,11 @@ body {
 }
 
 .music_sidebar_bottom {
-  /* border: 2px solid green; */
   width: 100%;
   height: 15%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  /* overflow: hidden; */
 }
 
 .bar {
@@ -159,7 +152,6 @@ body {
 /* ................ Music Main Window  ................... */
 
 .music_main_window_container {
-  /* border: blue 2px solid; */
   padding: 5rem 5rem 2rem 2rem;
   background-color: var(--color_primary);
   height: 100%;
@@ -171,27 +163,20 @@ body {
 }
 
 .music_main_window_top {
-  /* border: 1px solid red; */
   padding: 0 0;
   width: 100%;
   height: 65%;
 }
 
 .music_main_title {
-  /* border: 1px solid red; */
   width: 100%;
   height: 25%;
   padding: 1rem 0;
   
   display: flex;
   justify-content: space-between;
-  /* align-items: flex-end; */
 }
 
-/* .music_main_title p::selection{
-  color: red;
-  background-color: pink;
-} */
 
 .music_main_title p{
   color: var(--color_pink);
@@ -220,7 +205,6 @@ body {
 }
 
 .music_main_content {
-  /* border: 1px solid red; */
   width: 100%;
   height: 75%;
 
@@ -229,7 +213,6 @@ body {
 
 
 .main_content_album {
-  /* border: 1px solid green; */
   padding: 10px 0;
   height: 100%;
   width: 55%;
@@ -244,7 +227,6 @@ body {
 }
 
 .main_content_songs {
-  /* border: 3px dashed var(--color_blue_light); */
   border-radius: 5px;
   padding: 10px;
   height: 100%;
@@ -257,13 +239,11 @@ body {
 }
 
 .song_bar_tile_container {
-  /* border: red 1px solid; */
 
   border-radius: 5px;
   width: 100%;
   margin-top: 0.5rem;
   padding: 0.5rem 0.5rem;
-  /* padding-right: 0; */
 
   display: flex;
   justify-content: space-between;
@@ -274,7 +254,6 @@ body {
 .song_bar_tile_div1,
 .song_bar_tile_div2 {
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .song_bar_tile_div1 {
@@ -286,19 +265,16 @@ body {
 }
 
 .song_bar_tile_div1 div:nth-child(1) {
-  /* border: green 2px solid; */
   width: 20%;
 }
 
 .song_bar_tile_div1 div:nth-child(2) {
-  /* border: green 2px solid; */
   padding-left: 2rem;
   text-align: left;
   width: 80%;
 }
 
 .song_bar_tile_div2 p:nth-child(1) {
-  /* border: green 2px solid; */
   letter-spacing: 3px;
   font-size: small;
   width: 70%;
@@ -309,7 +285,6 @@ body {
 }
 
 .song_bar_tile_div2 p:nth-child(2) {
-  /* border: green 2px solid; */
   width: 30%;
   font-weight: bold;
   font-size: larger;
@@ -326,7 +301,6 @@ body {
 }
 
 .music_main_window_bottom {
-  /* border: 1px solid red; */
   padding: 5px 0;
   width: 100%;
   height: 35%;
@@ -339,20 +313,15 @@ body {
 .music_main_recommended_list {
   display: flex;
   margin-top: 10px;
-  /* justify-content: flex-start; */
 }
 
 /* ................ Music Tile ................... */
 
 .song_tile_container {
-  /* border: 1px solid red; */
   margin: 0 2rem 0 0;
-  /* width: calc(fit-content + 10px); */
 }
 
 .song_tile_container img {
-  /* height: 50%;
-  width: 50%; */
   height: 6rem;
   width: 6rem;
 
@@ -418,15 +387,12 @@ body {
 }
 
 .music_bottom_play_progress {
-  /* border: 2px solid green; */
   width: 70%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .music_bottom_play_progress p {
-  /* padding: 0 15px; */
-  /* margin: 0 15px; */
   font-size: 0.8rem;
   font-weight: bold;
   color: var(--color_font_2);
@@ -434,13 +400,11 @@ body {
 
 .music_bottom_play_progress p:nth-child(1),
 .music_bottom_play_progress p:nth-child(3){
-  /* border: 2px solid red; */
   text-align: center;
   width: 10%;
 }
 
 .music_bottom_play_progress input:nth-child(2){
-  /* border: 2px solid red; */
   width: 80%;
 }
 
@@ -473,5 +437,3 @@ body {
   align-items: center;
   width: 20%;
 }
-
-/* ................ Music <>  ................... */
