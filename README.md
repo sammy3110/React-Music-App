@@ -10,6 +10,7 @@ Design credits:
 
 ## `Demo`
 **Deployed on**
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3aba3c43-4c72-4cb1-85f6-03196daf66c3/deploy-status)](https://app.netlify.com/sites/shyams-react-music-app/deploys)
 
 Listen to the music at [React Music App](https://shyams-react-music-app.netlify.app/) 🎧
