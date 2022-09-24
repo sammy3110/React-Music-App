@@ -15,4 +15,4 @@ Design credits:
 Listen to the music at [React Music App](https://shyams-react-music-app.netlify.app/) 🎧
 ## `Screenshots`
 
-![Music App](https://github.com/sammy3110/React-Music-App/blob/main/public/Screenshot.jpg)
+![Music App](https://github.com/sammy3110/React-Music-App/blob/main/public/images/Screenshot.jpg)
